@@ -60,6 +60,9 @@ char* db_get_chat_name(int chat_id, sqlite3* db) {
         sqlite3_close(db);
     } 
 
+
+
+
     rc = sqlite3_step(result);
 
     if (rc == SQLITE_ROW) {
